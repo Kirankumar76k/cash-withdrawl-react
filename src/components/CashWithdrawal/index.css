@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+  background-size: cover;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  border-radius: 20px;
+  background-color: #150b3e;
+  color: white;
+  width: 500px;
+  height: 600px;
+  padding: 25px;
+}
+.profile {
+  display: flex;
+}
+.pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  padding: 15px;
+  border-radius: 100px;
+}
+.name {
+  color: #c7d2fe;
+  margin-left: 10px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+}
+.denom-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
